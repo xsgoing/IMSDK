@@ -1,0 +1,763 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		612D336D20AD386B00CD1287 /* CustomerServiceAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 612D332820AD386900CD1287 /* CustomerServiceAPI.h */; };
+		612D336E20AD386B00CD1287 /* CustomerServiceAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 612D332920AD386900CD1287 /* CustomerServiceAPI.m */; };
+		612D336F20AD386B00CD1287 /* GetOfflineMessageListAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 612D332A20AD386900CD1287 /* GetOfflineMessageListAPI.h */; };
+		612D337020AD386B00CD1287 /* GetOfflineMessageListAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 612D332B20AD386900CD1287 /* GetOfflineMessageListAPI.m */; };
+		612D337120AD386B00CD1287 /* YGAPIProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 612D332C20AD386900CD1287 /* YGAPIProtocol.h */; };
+		612D337220AD386B00CD1287 /* YGConfirmMessageAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 612D332D20AD386900CD1287 /* YGConfirmMessageAPI.h */; };
+		612D337320AD386B00CD1287 /* YGConfirmMessageAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 612D332E20AD386900CD1287 /* YGConfirmMessageAPI.m */; };
+		612D337420AD386B00CD1287 /* YGConnectionAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 612D332F20AD386900CD1287 /* YGConnectionAPI.h */; };
+		612D337520AD386B00CD1287 /* YGConnectionAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 612D333020AD386900CD1287 /* YGConnectionAPI.m */; };
+		612D337620AD386B00CD1287 /* YGOfflineAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 612D333120AD386900CD1287 /* YGOfflineAPI.h */; };
+		612D337720AD386B00CD1287 /* YGOfflineAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 612D333220AD386900CD1287 /* YGOfflineAPI.m */; };
+		612D337820AD386B00CD1287 /* YGSendMessageChatAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 612D333320AD386900CD1287 /* YGSendMessageChatAPI.h */; };
+		612D337920AD386B00CD1287 /* YGSendMessageChatAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 612D333420AD386900CD1287 /* YGSendMessageChatAPI.m */; };
+		612D337A20AD386B00CD1287 /* YGSuperAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 612D333520AD386900CD1287 /* YGSuperAPI.h */; };
+		612D337B20AD386B00CD1287 /* YGSuperAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 612D333620AD386900CD1287 /* YGSuperAPI.m */; };
+		612D337C20AD386B00CD1287 /* YGUserVerificationAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 612D333720AD386900CD1287 /* YGUserVerificationAPI.h */; };
+		612D337D20AD386B00CD1287 /* YGUserVerificationAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 612D333820AD386900CD1287 /* YGUserVerificationAPI.m */; };
+		612D337E20AD386B00CD1287 /* YGAPIHandleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 612D333A20AD386A00CD1287 /* YGAPIHandleManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		612D337F20AD386B00CD1287 /* YGAPIHandleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 612D333B20AD386A00CD1287 /* YGAPIHandleManager.m */; };
+		612D338020AD386B00CD1287 /* YGSocketInputSteam.h in Headers */ = {isa = PBXBuildFile; fileRef = 612D333C20AD386A00CD1287 /* YGSocketInputSteam.h */; };
+		612D338120AD386B00CD1287 /* YGSocketInputSteam.m in Sources */ = {isa = PBXBuildFile; fileRef = 612D333D20AD386A00CD1287 /* YGSocketInputSteam.m */; };
+		612D338220AD386B00CD1287 /* YGSocketManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 612D333E20AD386A00CD1287 /* YGSocketManager.h */; };
+		612D338320AD386B00CD1287 /* YGSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 612D333F20AD386A00CD1287 /* YGSocketManager.m */; };
+		612D338420AD386B00CD1287 /* YGSocketOutputSteam.h in Headers */ = {isa = PBXBuildFile; fileRef = 612D334020AD386A00CD1287 /* YGSocketOutputSteam.h */; };
+		612D338520AD386B00CD1287 /* YGSocketOutputSteam.m in Sources */ = {isa = PBXBuildFile; fileRef = 612D334120AD386A00CD1287 /* YGSocketOutputSteam.m */; };
+		612D338620AD386B00CD1287 /* IMReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 612D334320AD386A00CD1287 /* IMReachabilityManager.h */; };
+		612D338720AD386B00CD1287 /* IMReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 612D334420AD386A00CD1287 /* IMReachabilityManager.m */; };
+		612D338820AD386B00CD1287 /* AESCrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 612D334620AD386A00CD1287 /* AESCrypt.h */; };
+		612D338920AD386B00CD1287 /* AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 612D334720AD386A00CD1287 /* AESCrypt.m */; };
+		612D338A20AD386B00CD1287 /* IMKeyChainStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 612D334820AD386A00CD1287 /* IMKeyChainStore.h */; };
+		612D338B20AD386B00CD1287 /* IMKeyChainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 612D334920AD386A00CD1287 /* IMKeyChainStore.m */; };
+		612D338C20AD386B00CD1287 /* IMUUID.h in Headers */ = {isa = PBXBuildFile; fileRef = 612D334A20AD386A00CD1287 /* IMUUID.h */; };
+		612D338D20AD386B00CD1287 /* IMUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 612D334B20AD386A00CD1287 /* IMUUID.m */; };
+		612D338E20AD386B00CD1287 /* NSData+DTBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 612D334C20AD386A00CD1287 /* NSData+DTBase64.h */; };
+		612D338F20AD386B00CD1287 /* NSData+DTBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 612D334D20AD386A00CD1287 /* NSData+DTBase64.m */; };
+		612D339020AD386B00CD1287 /* YGChatConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = 612D334E20AD386A00CD1287 /* YGChatConstant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		612D339120AD386B00CD1287 /* YGCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 612D334F20AD386A00CD1287 /* YGCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		612D339220AD386B00CD1287 /* YGMRLProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 612D335020AD386A00CD1287 /* YGMRLProxy.h */; };
+		612D339320AD386B00CD1287 /* YGMRLProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 612D335120AD386A00CD1287 /* YGMRLProxy.m */; };
+		612D339420AD386B00CD1287 /* YGTimeUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 612D335220AD386A00CD1287 /* YGTimeUtils.h */; };
+		612D339520AD386B00CD1287 /* YGTimeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 612D335320AD386A00CD1287 /* YGTimeUtils.m */; };
+		612D339620AD386B00CD1287 /* YGUserColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 612D335420AD386A00CD1287 /* YGUserColor.h */; };
+		612D339720AD386B00CD1287 /* YGUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 612D335520AD386A00CD1287 /* YGUtilities.h */; };
+		612D339820AD386B00CD1287 /* YGUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 612D335620AD386A00CD1287 /* YGUtilities.m */; };
+		612D339920AD386B00CD1287 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 612D335820AD386B00CD1287 /* README.markdown */; };
+		612D339A20AD386B00CD1287 /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 612D335B20AD386B00CD1287 /* GCDAsyncSocket.h */; };
+		612D339B20AD386B00CD1287 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 612D335C20AD386B00CD1287 /* GCDAsyncSocket.m */; };
+		612D339C20AD386B00CD1287 /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 612D335D20AD386B00CD1287 /* GCDAsyncUdpSocket.h */; };
+		612D339D20AD386B00CD1287 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 612D335E20AD386B00CD1287 /* GCDAsyncUdpSocket.m */; };
+		612D339E20AD386B00CD1287 /* AsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 612D336020AD386B00CD1287 /* AsyncSocket.h */; };
+		612D339F20AD386B00CD1287 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 612D336120AD386B00CD1287 /* AsyncSocket.m */; };
+		612D33A020AD386B00CD1287 /* AsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 612D336220AD386B00CD1287 /* AsyncUdpSocket.h */; };
+		612D33A120AD386B00CD1287 /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 612D336320AD386B00CD1287 /* AsyncUdpSocket.m */; };
+		612D33A220AD386B00CD1287 /* IMMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 612D336520AD386B00CD1287 /* IMMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		612D33A320AD386B00CD1287 /* IMMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 612D336620AD386B00CD1287 /* IMMessage.m */; };
+		612D33A420AD386B00CD1287 /* YGClientStateManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 612D336820AD386B00CD1287 /* YGClientStateManager.h */; };
+		612D33A520AD386B00CD1287 /* YGClientStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 612D336920AD386B00CD1287 /* YGClientStateManager.m */; };
+		612D33A620AD386B00CD1287 /* IMClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 612D336B20AD386B00CD1287 /* IMClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		612D33A720AD386B00CD1287 /* IMClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 612D336C20AD386B00CD1287 /* IMClient.m */; };
+		61ED8AFE20909C8A00EB6B32 /* IMSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61ED8AF420909C8A00EB6B32 /* IMSDK.framework */; };
+		61ED8B0320909C8A00EB6B32 /* IMSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61ED8B0220909C8A00EB6B32 /* IMSDKTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61ED8AFF20909C8A00EB6B32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61ED8AEB20909C8A00EB6B32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61ED8AF320909C8A00EB6B32;
+			remoteInfo = IMSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		612D332820AD386900CD1287 /* CustomerServiceAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerServiceAPI.h; sourceTree = "<group>"; };
+		612D332920AD386900CD1287 /* CustomerServiceAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerServiceAPI.m; sourceTree = "<group>"; };
+		612D332A20AD386900CD1287 /* GetOfflineMessageListAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetOfflineMessageListAPI.h; sourceTree = "<group>"; };
+		612D332B20AD386900CD1287 /* GetOfflineMessageListAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetOfflineMessageListAPI.m; sourceTree = "<group>"; };
+		612D332C20AD386900CD1287 /* YGAPIProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGAPIProtocol.h; sourceTree = "<group>"; };
+		612D332D20AD386900CD1287 /* YGConfirmMessageAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGConfirmMessageAPI.h; sourceTree = "<group>"; };
+		612D332E20AD386900CD1287 /* YGConfirmMessageAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGConfirmMessageAPI.m; sourceTree = "<group>"; };
+		612D332F20AD386900CD1287 /* YGConnectionAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGConnectionAPI.h; sourceTree = "<group>"; };
+		612D333020AD386900CD1287 /* YGConnectionAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGConnectionAPI.m; sourceTree = "<group>"; };
+		612D333120AD386900CD1287 /* YGOfflineAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGOfflineAPI.h; sourceTree = "<group>"; };
+		612D333220AD386900CD1287 /* YGOfflineAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGOfflineAPI.m; sourceTree = "<group>"; };
+		612D333320AD386900CD1287 /* YGSendMessageChatAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGSendMessageChatAPI.h; sourceTree = "<group>"; };
+		612D333420AD386900CD1287 /* YGSendMessageChatAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGSendMessageChatAPI.m; sourceTree = "<group>"; };
+		612D333520AD386900CD1287 /* YGSuperAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGSuperAPI.h; sourceTree = "<group>"; };
+		612D333620AD386900CD1287 /* YGSuperAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGSuperAPI.m; sourceTree = "<group>"; };
+		612D333720AD386900CD1287 /* YGUserVerificationAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGUserVerificationAPI.h; sourceTree = "<group>"; };
+		612D333820AD386900CD1287 /* YGUserVerificationAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGUserVerificationAPI.m; sourceTree = "<group>"; };
+		612D333A20AD386A00CD1287 /* YGAPIHandleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGAPIHandleManager.h; sourceTree = "<group>"; };
+		612D333B20AD386A00CD1287 /* YGAPIHandleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGAPIHandleManager.m; sourceTree = "<group>"; };
+		612D333C20AD386A00CD1287 /* YGSocketInputSteam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGSocketInputSteam.h; sourceTree = "<group>"; };
+		612D333D20AD386A00CD1287 /* YGSocketInputSteam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGSocketInputSteam.m; sourceTree = "<group>"; };
+		612D333E20AD386A00CD1287 /* YGSocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGSocketManager.h; sourceTree = "<group>"; };
+		612D333F20AD386A00CD1287 /* YGSocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGSocketManager.m; sourceTree = "<group>"; };
+		612D334020AD386A00CD1287 /* YGSocketOutputSteam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGSocketOutputSteam.h; sourceTree = "<group>"; };
+		612D334120AD386A00CD1287 /* YGSocketOutputSteam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGSocketOutputSteam.m; sourceTree = "<group>"; };
+		612D334320AD386A00CD1287 /* IMReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMReachabilityManager.h; sourceTree = "<group>"; };
+		612D334420AD386A00CD1287 /* IMReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMReachabilityManager.m; sourceTree = "<group>"; };
+		612D334620AD386A00CD1287 /* AESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESCrypt.h; sourceTree = "<group>"; };
+		612D334720AD386A00CD1287 /* AESCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESCrypt.m; sourceTree = "<group>"; };
+		612D334820AD386A00CD1287 /* IMKeyChainStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMKeyChainStore.h; sourceTree = "<group>"; };
+		612D334920AD386A00CD1287 /* IMKeyChainStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMKeyChainStore.m; sourceTree = "<group>"; };
+		612D334A20AD386A00CD1287 /* IMUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMUUID.h; sourceTree = "<group>"; };
+		612D334B20AD386A00CD1287 /* IMUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMUUID.m; sourceTree = "<group>"; };
+		612D334C20AD386A00CD1287 /* NSData+DTBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+DTBase64.h"; sourceTree = "<group>"; };
+		612D334D20AD386A00CD1287 /* NSData+DTBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+DTBase64.m"; sourceTree = "<group>"; };
+		612D334E20AD386A00CD1287 /* YGChatConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGChatConstant.h; sourceTree = "<group>"; };
+		612D334F20AD386A00CD1287 /* YGCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGCommon.h; sourceTree = "<group>"; };
+		612D335020AD386A00CD1287 /* YGMRLProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGMRLProxy.h; sourceTree = "<group>"; };
+		612D335120AD386A00CD1287 /* YGMRLProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGMRLProxy.m; sourceTree = "<group>"; };
+		612D335220AD386A00CD1287 /* YGTimeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGTimeUtils.h; sourceTree = "<group>"; };
+		612D335320AD386A00CD1287 /* YGTimeUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGTimeUtils.m; sourceTree = "<group>"; };
+		612D335420AD386A00CD1287 /* YGUserColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGUserColor.h; sourceTree = "<group>"; };
+		612D335520AD386A00CD1287 /* YGUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGUtilities.h; sourceTree = "<group>"; };
+		612D335620AD386A00CD1287 /* YGUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGUtilities.m; sourceTree = "<group>"; };
+		612D335820AD386B00CD1287 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
+		612D335B20AD386B00CD1287 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		612D335C20AD386B00CD1287 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		612D335D20AD386B00CD1287 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		612D335E20AD386B00CD1287 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		612D336020AD386B00CD1287 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		612D336120AD386B00CD1287 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		612D336220AD386B00CD1287 /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncUdpSocket.h; sourceTree = "<group>"; };
+		612D336320AD386B00CD1287 /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
+		612D336520AD386B00CD1287 /* IMMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMMessage.h; sourceTree = "<group>"; };
+		612D336620AD386B00CD1287 /* IMMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMMessage.m; sourceTree = "<group>"; };
+		612D336820AD386B00CD1287 /* YGClientStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGClientStateManager.h; sourceTree = "<group>"; };
+		612D336920AD386B00CD1287 /* YGClientStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGClientStateManager.m; sourceTree = "<group>"; };
+		612D336B20AD386B00CD1287 /* IMClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMClient.h; sourceTree = "<group>"; };
+		612D336C20AD386B00CD1287 /* IMClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMClient.m; sourceTree = "<group>"; };
+		61ED8AF420909C8A00EB6B32 /* IMSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IMSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61ED8AF820909C8A00EB6B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61ED8AFD20909C8A00EB6B32 /* IMSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61ED8B0220909C8A00EB6B32 /* IMSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMSDKTests.m; sourceTree = "<group>"; };
+		61ED8B0420909C8A00EB6B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61ED8AF020909C8A00EB6B32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61ED8AFA20909C8A00EB6B32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61ED8AFE20909C8A00EB6B32 /* IMSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		612D332720AD386900CD1287 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				612D332820AD386900CD1287 /* CustomerServiceAPI.h */,
+				612D332920AD386900CD1287 /* CustomerServiceAPI.m */,
+				612D332A20AD386900CD1287 /* GetOfflineMessageListAPI.h */,
+				612D332B20AD386900CD1287 /* GetOfflineMessageListAPI.m */,
+				612D332C20AD386900CD1287 /* YGAPIProtocol.h */,
+				612D332D20AD386900CD1287 /* YGConfirmMessageAPI.h */,
+				612D332E20AD386900CD1287 /* YGConfirmMessageAPI.m */,
+				612D332F20AD386900CD1287 /* YGConnectionAPI.h */,
+				612D333020AD386900CD1287 /* YGConnectionAPI.m */,
+				612D333120AD386900CD1287 /* YGOfflineAPI.h */,
+				612D333220AD386900CD1287 /* YGOfflineAPI.m */,
+				612D333320AD386900CD1287 /* YGSendMessageChatAPI.h */,
+				612D333420AD386900CD1287 /* YGSendMessageChatAPI.m */,
+				612D333520AD386900CD1287 /* YGSuperAPI.h */,
+				612D333620AD386900CD1287 /* YGSuperAPI.m */,
+				612D333720AD386900CD1287 /* YGUserVerificationAPI.h */,
+				612D333820AD386900CD1287 /* YGUserVerificationAPI.m */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		612D333920AD386A00CD1287 /* SocketManager */ = {
+			isa = PBXGroup;
+			children = (
+				612D333A20AD386A00CD1287 /* YGAPIHandleManager.h */,
+				612D333B20AD386A00CD1287 /* YGAPIHandleManager.m */,
+				612D333C20AD386A00CD1287 /* YGSocketInputSteam.h */,
+				612D333D20AD386A00CD1287 /* YGSocketInputSteam.m */,
+				612D333E20AD386A00CD1287 /* YGSocketManager.h */,
+				612D333F20AD386A00CD1287 /* YGSocketManager.m */,
+				612D334020AD386A00CD1287 /* YGSocketOutputSteam.h */,
+				612D334120AD386A00CD1287 /* YGSocketOutputSteam.m */,
+			);
+			path = SocketManager;
+			sourceTree = "<group>";
+		};
+		612D334220AD386A00CD1287 /* IMReachabilityManager */ = {
+			isa = PBXGroup;
+			children = (
+				612D334320AD386A00CD1287 /* IMReachabilityManager.h */,
+				612D334420AD386A00CD1287 /* IMReachabilityManager.m */,
+			);
+			path = IMReachabilityManager;
+			sourceTree = "<group>";
+		};
+		612D334520AD386A00CD1287 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				612D334620AD386A00CD1287 /* AESCrypt.h */,
+				612D334720AD386A00CD1287 /* AESCrypt.m */,
+				612D334820AD386A00CD1287 /* IMKeyChainStore.h */,
+				612D334920AD386A00CD1287 /* IMKeyChainStore.m */,
+				612D334A20AD386A00CD1287 /* IMUUID.h */,
+				612D334B20AD386A00CD1287 /* IMUUID.m */,
+				612D334C20AD386A00CD1287 /* NSData+DTBase64.h */,
+				612D334D20AD386A00CD1287 /* NSData+DTBase64.m */,
+				612D334E20AD386A00CD1287 /* YGChatConstant.h */,
+				612D334F20AD386A00CD1287 /* YGCommon.h */,
+				612D335020AD386A00CD1287 /* YGMRLProxy.h */,
+				612D335120AD386A00CD1287 /* YGMRLProxy.m */,
+				612D335220AD386A00CD1287 /* YGTimeUtils.h */,
+				612D335320AD386A00CD1287 /* YGTimeUtils.m */,
+				612D335420AD386A00CD1287 /* YGUserColor.h */,
+				612D335520AD386A00CD1287 /* YGUtilities.h */,
+				612D335620AD386A00CD1287 /* YGUtilities.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		612D335720AD386B00CD1287 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				612D335820AD386B00CD1287 /* README.markdown */,
+				612D335920AD386B00CD1287 /* Source */,
+			);
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		612D335920AD386B00CD1287 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				612D335A20AD386B00CD1287 /* GCD */,
+				612D335F20AD386B00CD1287 /* RunLoop */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		612D335A20AD386B00CD1287 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				612D335B20AD386B00CD1287 /* GCDAsyncSocket.h */,
+				612D335C20AD386B00CD1287 /* GCDAsyncSocket.m */,
+				612D335D20AD386B00CD1287 /* GCDAsyncUdpSocket.h */,
+				612D335E20AD386B00CD1287 /* GCDAsyncUdpSocket.m */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
+		612D335F20AD386B00CD1287 /* RunLoop */ = {
+			isa = PBXGroup;
+			children = (
+				612D336020AD386B00CD1287 /* AsyncSocket.h */,
+				612D336120AD386B00CD1287 /* AsyncSocket.m */,
+				612D336220AD386B00CD1287 /* AsyncUdpSocket.h */,
+				612D336320AD386B00CD1287 /* AsyncUdpSocket.m */,
+			);
+			path = RunLoop;
+			sourceTree = "<group>";
+		};
+		612D336420AD386B00CD1287 /* IMMessage */ = {
+			isa = PBXGroup;
+			children = (
+				612D336520AD386B00CD1287 /* IMMessage.h */,
+				612D336620AD386B00CD1287 /* IMMessage.m */,
+			);
+			path = IMMessage;
+			sourceTree = "<group>";
+		};
+		612D336720AD386B00CD1287 /* YGClientStateManager */ = {
+			isa = PBXGroup;
+			children = (
+				612D336820AD386B00CD1287 /* YGClientStateManager.h */,
+				612D336920AD386B00CD1287 /* YGClientStateManager.m */,
+			);
+			path = YGClientStateManager;
+			sourceTree = "<group>";
+		};
+		612D336A20AD386B00CD1287 /* IMClient */ = {
+			isa = PBXGroup;
+			children = (
+				612D336B20AD386B00CD1287 /* IMClient.h */,
+				612D336C20AD386B00CD1287 /* IMClient.m */,
+			);
+			path = IMClient;
+			sourceTree = "<group>";
+		};
+		61ED8AEA20909C8A00EB6B32 = {
+			isa = PBXGroup;
+			children = (
+				61ED8AF620909C8A00EB6B32 /* IMSDK */,
+				61ED8B0120909C8A00EB6B32 /* IMSDKTests */,
+				61ED8AF520909C8A00EB6B32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61ED8AF520909C8A00EB6B32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61ED8AF420909C8A00EB6B32 /* IMSDK.framework */,
+				61ED8AFD20909C8A00EB6B32 /* IMSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61ED8AF620909C8A00EB6B32 /* IMSDK */ = {
+			isa = PBXGroup;
+			children = (
+				612D332720AD386900CD1287 /* APIs */,
+				612D335720AD386B00CD1287 /* CocoaAsyncSocket */,
+				612D336A20AD386B00CD1287 /* IMClient */,
+				612D336420AD386B00CD1287 /* IMMessage */,
+				612D334220AD386A00CD1287 /* IMReachabilityManager */,
+				612D333920AD386A00CD1287 /* SocketManager */,
+				612D334520AD386A00CD1287 /* Utils */,
+				612D336720AD386B00CD1287 /* YGClientStateManager */,
+				61ED8AF820909C8A00EB6B32 /* Info.plist */,
+			);
+			path = IMSDK;
+			sourceTree = "<group>";
+		};
+		61ED8B0120909C8A00EB6B32 /* IMSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				61ED8B0220909C8A00EB6B32 /* IMSDKTests.m */,
+				61ED8B0420909C8A00EB6B32 /* Info.plist */,
+			);
+			path = IMSDKTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		61ED8AF120909C8A00EB6B32 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				612D339020AD386B00CD1287 /* YGChatConstant.h in Headers */,
+				612D339120AD386B00CD1287 /* YGCommon.h in Headers */,
+				612D33A620AD386B00CD1287 /* IMClient.h in Headers */,
+				612D33A220AD386B00CD1287 /* IMMessage.h in Headers */,
+				612D337E20AD386B00CD1287 /* YGAPIHandleManager.h in Headers */,
+				612D337220AD386B00CD1287 /* YGConfirmMessageAPI.h in Headers */,
+				612D337420AD386B00CD1287 /* YGConnectionAPI.h in Headers */,
+				612D337C20AD386B00CD1287 /* YGUserVerificationAPI.h in Headers */,
+				612D339C20AD386B00CD1287 /* GCDAsyncUdpSocket.h in Headers */,
+				612D339420AD386B00CD1287 /* YGTimeUtils.h in Headers */,
+				612D338220AD386B00CD1287 /* YGSocketManager.h in Headers */,
+				612D339E20AD386B00CD1287 /* AsyncSocket.h in Headers */,
+				612D336F20AD386B00CD1287 /* GetOfflineMessageListAPI.h in Headers */,
+				612D338620AD386B00CD1287 /* IMReachabilityManager.h in Headers */,
+				612D338A20AD386B00CD1287 /* IMKeyChainStore.h in Headers */,
+				612D337A20AD386B00CD1287 /* YGSuperAPI.h in Headers */,
+				612D336D20AD386B00CD1287 /* CustomerServiceAPI.h in Headers */,
+				612D337120AD386B00CD1287 /* YGAPIProtocol.h in Headers */,
+				612D338C20AD386B00CD1287 /* IMUUID.h in Headers */,
+				612D337820AD386B00CD1287 /* YGSendMessageChatAPI.h in Headers */,
+				612D337620AD386B00CD1287 /* YGOfflineAPI.h in Headers */,
+				612D338420AD386B00CD1287 /* YGSocketOutputSteam.h in Headers */,
+				612D338820AD386B00CD1287 /* AESCrypt.h in Headers */,
+				612D338020AD386B00CD1287 /* YGSocketInputSteam.h in Headers */,
+				612D33A420AD386B00CD1287 /* YGClientStateManager.h in Headers */,
+				612D338E20AD386B00CD1287 /* NSData+DTBase64.h in Headers */,
+				612D339620AD386B00CD1287 /* YGUserColor.h in Headers */,
+				612D339A20AD386B00CD1287 /* GCDAsyncSocket.h in Headers */,
+				612D339220AD386B00CD1287 /* YGMRLProxy.h in Headers */,
+				612D33A020AD386B00CD1287 /* AsyncUdpSocket.h in Headers */,
+				612D339720AD386B00CD1287 /* YGUtilities.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		61ED8AF320909C8A00EB6B32 /* IMSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61ED8B0820909C8A00EB6B32 /* Build configuration list for PBXNativeTarget "IMSDK" */;
+			buildPhases = (
+				61ED8AEF20909C8A00EB6B32 /* Sources */,
+				61ED8AF020909C8A00EB6B32 /* Frameworks */,
+				61ED8AF120909C8A00EB6B32 /* Headers */,
+				61ED8AF220909C8A00EB6B32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IMSDK;
+			productName = IMSDK;
+			productReference = 61ED8AF420909C8A00EB6B32 /* IMSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		61ED8AFC20909C8A00EB6B32 /* IMSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61ED8B0B20909C8A00EB6B32 /* Build configuration list for PBXNativeTarget "IMSDKTests" */;
+			buildPhases = (
+				61ED8AF920909C8A00EB6B32 /* Sources */,
+				61ED8AFA20909C8A00EB6B32 /* Frameworks */,
+				61ED8AFB20909C8A00EB6B32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61ED8B0020909C8A00EB6B32 /* PBXTargetDependency */,
+			);
+			name = IMSDKTests;
+			productName = IMSDKTests;
+			productReference = 61ED8AFD20909C8A00EB6B32 /* IMSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61ED8AEB20909C8A00EB6B32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Season;
+				TargetAttributes = {
+					61ED8AF320909C8A00EB6B32 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					61ED8AFC20909C8A00EB6B32 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 61ED8AEE20909C8A00EB6B32 /* Build configuration list for PBXProject "IMSDK" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 61ED8AEA20909C8A00EB6B32;
+			productRefGroup = 61ED8AF520909C8A00EB6B32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61ED8AF320909C8A00EB6B32 /* IMSDK */,
+				61ED8AFC20909C8A00EB6B32 /* IMSDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61ED8AF220909C8A00EB6B32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				612D339920AD386B00CD1287 /* README.markdown in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61ED8AFB20909C8A00EB6B32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61ED8AEF20909C8A00EB6B32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				612D338D20AD386B00CD1287 /* IMUUID.m in Sources */,
+				612D337920AD386B00CD1287 /* YGSendMessageChatAPI.m in Sources */,
+				612D339320AD386B00CD1287 /* YGMRLProxy.m in Sources */,
+				612D33A120AD386B00CD1287 /* AsyncUdpSocket.m in Sources */,
+				612D337320AD386B00CD1287 /* YGConfirmMessageAPI.m in Sources */,
+				612D338120AD386B00CD1287 /* YGSocketInputSteam.m in Sources */,
+				612D339F20AD386B00CD1287 /* AsyncSocket.m in Sources */,
+				612D337B20AD386B00CD1287 /* YGSuperAPI.m in Sources */,
+				612D338B20AD386B00CD1287 /* IMKeyChainStore.m in Sources */,
+				612D338520AD386B00CD1287 /* YGSocketOutputSteam.m in Sources */,
+				612D337720AD386B00CD1287 /* YGOfflineAPI.m in Sources */,
+				612D336E20AD386B00CD1287 /* CustomerServiceAPI.m in Sources */,
+				612D33A720AD386B00CD1287 /* IMClient.m in Sources */,
+				612D337520AD386B00CD1287 /* YGConnectionAPI.m in Sources */,
+				612D338320AD386B00CD1287 /* YGSocketManager.m in Sources */,
+				612D339D20AD386B00CD1287 /* GCDAsyncUdpSocket.m in Sources */,
+				612D339B20AD386B00CD1287 /* GCDAsyncSocket.m in Sources */,
+				612D33A320AD386B00CD1287 /* IMMessage.m in Sources */,
+				612D339820AD386B00CD1287 /* YGUtilities.m in Sources */,
+				612D339520AD386B00CD1287 /* YGTimeUtils.m in Sources */,
+				612D337F20AD386B00CD1287 /* YGAPIHandleManager.m in Sources */,
+				612D33A520AD386B00CD1287 /* YGClientStateManager.m in Sources */,
+				612D338720AD386B00CD1287 /* IMReachabilityManager.m in Sources */,
+				612D337D20AD386B00CD1287 /* YGUserVerificationAPI.m in Sources */,
+				612D338F20AD386B00CD1287 /* NSData+DTBase64.m in Sources */,
+				612D338920AD386B00CD1287 /* AESCrypt.m in Sources */,
+				612D337020AD386B00CD1287 /* GetOfflineMessageListAPI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61ED8AF920909C8A00EB6B32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61ED8B0320909C8A00EB6B32 /* IMSDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61ED8B0020909C8A00EB6B32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61ED8AF320909C8A00EB6B32 /* IMSDK */;
+			targetProxy = 61ED8AFF20909C8A00EB6B32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		61ED8B0620909C8A00EB6B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		61ED8B0720909C8A00EB6B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		61ED8B0920909C8A00EB6B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = JC3BTR66Q8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = IMSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = xs.IMKit.test.IMSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61ED8B0A20909C8A00EB6B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = JC3BTR66Q8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = IMSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = xs.IMKit.test.IMSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		61ED8B0C20909C8A00EB6B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JC3BTR66Q8;
+				INFOPLIST_FILE = IMSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xs.IMKit.test.IMSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61ED8B0D20909C8A00EB6B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JC3BTR66Q8;
+				INFOPLIST_FILE = IMSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xs.IMKit.test.IMSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61ED8AEE20909C8A00EB6B32 /* Build configuration list for PBXProject "IMSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61ED8B0620909C8A00EB6B32 /* Debug */,
+				61ED8B0720909C8A00EB6B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61ED8B0820909C8A00EB6B32 /* Build configuration list for PBXNativeTarget "IMSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61ED8B0920909C8A00EB6B32 /* Debug */,
+				61ED8B0A20909C8A00EB6B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61ED8B0B20909C8A00EB6B32 /* Build configuration list for PBXNativeTarget "IMSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61ED8B0C20909C8A00EB6B32 /* Debug */,
+				61ED8B0D20909C8A00EB6B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61ED8AEB20909C8A00EB6B32 /* Project object */;
+}
